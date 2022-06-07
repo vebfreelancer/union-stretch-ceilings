@@ -1,9 +1,0 @@
-/node_modules
-.jshintrc
-package-lock.json
-package.json
-version.json
-/#src/img
-/#src/js/libs
-/#src/js/files/map.js
-/#src
