@@ -3,6 +3,7 @@ node_modules
 version.json
 /#src/img
 /#src/fonts
+/#src/favicon
 /#src/js/files/map.js
 /#src/js/libs/*
 !swiper.min.js
