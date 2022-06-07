@@ -1,0 +1,242 @@
+.faq {
+    background-color: #EDF4FA;
+    padding: 26px 0 60px 0;
+    @media (max-width: $md3+px){
+        padding: 30px 0 20px 0;
+    }
+    &__container {
+    }
+    &__mob-menu {
+    }
+    &__title {
+        width: 80%;
+        margin-bottom: 37px;
+        @media (max-width: $md3+px){
+            margin-bottom: 15px;
+            width: 95%;
+        }
+        @media (max-width: $md4+px){
+            width: 90%;
+        }
+    }
+    &__content {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 46px 30px 60px 30px;
+        @media (min-width: $md2+px){
+            display: flex;
+            align-items: flex-start;
+        }
+        @media (max-width: $md2+px){
+            padding: 15px 15px 15px 20px;
+        }
+    }
+    &__list {
+    }
+    &__item {
+        margin-bottom: 40px;
+        @media (max-width: $md3+px){
+            margin-bottom: 20px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__title-list {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        margin-bottom: 15px;
+        @media (max-width: $md3+px){
+            margin-bottom: 5px;
+        }
+        @media (max-width: $md4+px){
+            font-size: 14px;
+        }
+        span {
+            color: #405EAA;
+        }
+    }
+    &__text {
+        font-family: 'Montserrat';
+        font-size: 18px;
+        line-height: 160%;
+        @media (max-width: $md4+px){
+            font-size: 12px;
+        }   
+    }
+    &__aside {
+    }
+}
+.item-4 {
+    p {
+        &:nth-child(2) {
+            margin-bottom: 31px;
+            @media (max-width: $md3+px){
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.item-10 {
+    @media (min-width: $md1+px){
+        p {
+            &:first-child {
+                white-space: nowrap;
+            }
+        }
+    }
+}
+.aside-faq {
+    box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 8px 20px 20px 23px;
+    flex: 1 0 240px;
+    margin-left: 12px;
+    @media (max-width: $md1+px){
+        margin-left: 30px;
+    }
+    @media (max-width: $md2+px){
+        border-radius: 4px;
+        margin-left: 0;
+        padding: 30px;
+    }
+    @media (max-width: $md4+px){
+        padding: 20px 15px 20px 15px;
+    }
+    &__title {
+        border-bottom: 1px solid #EDEDED;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 160%;
+        padding-bottom: 15px;
+        margin-bottom: 22px;
+        @media (max-width: $md2+px){
+            display: none;
+        }
+    }
+    &__list {
+    }
+    &__item {
+        margin-bottom: 23px;
+        padding-left: 24px;
+        position: relative;
+        @media (max-width: $md4+px){
+            padding-left: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__marker {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 140%;
+        color: #405EAA;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @media (max-width: $md2+px){
+            line-height: 120%;
+        }
+        @media (max-width: $md4+px){
+            font-size: 12px;
+            position: static;
+        }
+    }
+    &__link {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        color: #343A56;
+        @media (max-width: $md4+px){
+            font-size: 12px;
+        }
+        span {
+            display: inline-block;
+            line-height: 8px;
+            img {
+                width: 11px;
+                height: 8px;
+            }
+        }
+    }
+}
+.menu-mob {
+    position: relative;
+    @media (min-width: $md2+px){
+        display: none;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 160%;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        @media (max-width: $md4+px){
+            font-weight: normal;
+            font-size: 12px;
+        }
+    }
+    &__flex {
+        background-color: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 4px;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 20px 15px 16px 15px;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 700px){
+            padding: 13px 15px 13px 15px;
+        }
+    }
+    &__select {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        line-height: 120%;
+        @media (max-width: $md4+px){
+            font-size: 12px;
+        }
+        span {
+            color: #405EAA;
+        }
+    }
+    &__arrow {
+        width: 12px;
+        height: 8px;
+        transition: .5s;
+        &._active {
+            transform: rotateX(180deg);
+        }
+        img {
+            width: 12px;
+            height: 8px;
+        }
+    }
+    &__list {
+        position: absolute;
+        top: 95px;
+        left: 0;
+        display: none;
+        @media (max-width: $md2+px){
+            width: 100%;
+        }
+        @media (max-width: $md4+px){
+            top: 85px;
+        }
+        &._active {
+            display: block;
+        }
+    }
+}
+.table-faq {
+    padding: 60px 0px 40px 0px;
+    @media (max-width: $md3+px){
+        padding: 30px 0px 10px 0px;
+    }
+}
+

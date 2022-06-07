@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('_head.html',{
+	"title":"Prices"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+                <div class="wrapper-price">
+                    <div class="wrapper-price__bg"></div>
+                    <div class="bread-crumbs">
+                        <div class="bread-crumbs__container _container">
+                            <nav class="bread-crumbs__nav">
+                                <ul class="bread-crumbs__list">
+                                    <li class="bread-crumbs__item">
+                                        <a href="index.html" class="bread-crumbs__link">Home</a>
+                                        <div class="bread-crumbs__arrow">
+                                            <img src="img/icons/arrow_crumbs.svg" alt="">
+                                        </div>
+                                    </li>
+                                    <li class="bread-crumbs__item">
+                                        Prices
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <section class="price-main">
+                        <div class="price-main__container _container">
+                            <div class="price-main__content">
+                                <div class="price-main__label">Only until 31.08.2021</div>
+                                <h1 class="price-main__title">Fabric with installation</h1>
+                                <div class="price-main__price">
+                                    <span>6.80</span>
+                                    <span> $</span>
+                                    <span>/</span>
+                                    <span> m<sup>2</sup></span>
+                                </div>
+                                <a href="#calc-price" class="price-main__btn btn _goto">Calculate</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <section class="price-table">
+                    <div class="price-table__container _container">
+                        <h2 class="price-table__title title-h2">Stretch ceilings price per m<sup>2</sup> with installation</h2>
+                    </div>
+                    <div class="price-table__tabs tabs-price _tabs">
+                        <div class="tabs-price__menu-container _container">
+                            <div class="tabs-block__nav-mobile">
+                                <span class="tabs-block__active-select selected-item">PVC</span>
+                                <div class="tabs-block__nav-arrow">
+                                    <img src="img/icons/arrow_down.svg" alt="arrow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-block__menu-mob"></div>
+                        <div class="tabs-price__nav _container">
+                            <div class="tabs-price__nav-flex" data-da=".tabs-block__menu-mob,1100,0">
+                                <div class="tabs-price__title _tabs-item _active">PVC</div>
+                                <div class="tabs-price__title _tabs-item">Fabric</div>
+                                <div class="tabs-price__title _tabs-item">With backlight</div>
+                                <div class="tabs-price__title _tabs-item">Two -level</div>
+                                <div class="tabs-price__title _tabs-item">Exclusive</div>
+                                <div class="tabs-price__title _tabs-item">Additional work</div>
+                            </div>
+                        </div>
+                        <div class="tabs-price__body container-price-table">
+                            <div class="tabs-price__item _tabs-block _active">
+                                <ul class="tabs-price__table table-price">
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell">Material</li>
+                                            <li class="table-price__cell">Side</li>
+                                            <li class="table-price__cell">Thickness, mm</li>
+                                            <li class="table-price__cell">Guarantee</li>
+                                            <li class="table-price__cell">Price with installation, $/m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Classic</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.13-0.15</li>
+                                            <li class="table-price__cell">7 years</li>
+                                            <li class="table-price__cell">6.80$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Premium</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.16-0.18</li>
+                                            <li class="table-price__cell">10 years</li>
+                                            <li class="table-price__cell">7.90$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Evolution</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.19-0.22</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">9.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Cold Stretch</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.18-0.20</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">11.50$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Teqtum KM2</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0.19-0.21</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">15.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Lumfer</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0,34</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">17.20$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs-price__item _tabs-block">
+                                <ul class="tabs-price__table table-price">
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell">Material</li>
+                                            <li class="table-price__cell">Side</li>
+                                            <li class="table-price__cell">Thickness, mm</li>
+                                            <li class="table-price__cell">Guarantee</li>
+                                            <li class="table-price__cell">Price with installation, $/m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Classic</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.13-0.15</li>
+                                            <li class="table-price__cell">7 years</li>
+                                            <li class="table-price__cell">6.80$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Premium</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.16-0.18</li>
+                                            <li class="table-price__cell">10 years</li>
+                                            <li class="table-price__cell">7.90$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Evolution</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.19-0.22</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">9.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Cold Stretch</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.18-0.20</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">11.50$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Teqtum KM2</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0.19-0.21</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">15.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Lumfer</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0,34</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">17.20$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs-price__item _tabs-block">
+                                <ul class="tabs-price__table table-price">
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell">Material</li>
+                                            <li class="table-price__cell">Side</li>
+                                            <li class="table-price__cell">Thickness, mm</li>
+                                            <li class="table-price__cell">Guarantee</li>
+                                            <li class="table-price__cell">Price with installation, $/m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Classic</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.13-0.15</li>
+                                            <li class="table-price__cell">7 years</li>
+                                            <li class="table-price__cell">6.80$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Premium</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.16-0.18</li>
+                                            <li class="table-price__cell">10 years</li>
+                                            <li class="table-price__cell">7.90$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Evolution</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.19-0.22</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">9.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Cold Stretch</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.18-0.20</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">11.50$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Teqtum KM2</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0.19-0.21</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">15.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Lumfer</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0,34</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">17.20$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs-price__item _tabs-block">
+                                <ul class="tabs-price__table table-price">
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell">Material</li>
+                                            <li class="table-price__cell">Side</li>
+                                            <li class="table-price__cell">Thickness, mm</li>
+                                            <li class="table-price__cell">Guarantee</li>
+                                            <li class="table-price__cell">Price with installation, $/m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Classic</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.13-0.15</li>
+                                            <li class="table-price__cell">7 years</li>
+                                            <li class="table-price__cell">6.80$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Premium</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.16-0.18</li>
+                                            <li class="table-price__cell">10 years</li>
+                                            <li class="table-price__cell">7.90$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Evolution</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.19-0.22</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">9.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Cold Stretch</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.18-0.20</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">11.50$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Teqtum KM2</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0.19-0.21</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">15.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Lumfer</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0,34</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">17.20$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs-price__item _tabs-block">
+                                <ul class="tabs-price__table table-price">
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell">Material</li>
+                                            <li class="table-price__cell">Side</li>
+                                            <li class="table-price__cell">Thickness, mm</li>
+                                            <li class="table-price__cell">Guarantee</li>
+                                            <li class="table-price__cell">Price with installation, $/m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Classic</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.13-0.15</li>
+                                            <li class="table-price__cell">7 years</li>
+                                            <li class="table-price__cell">6.80$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Premium</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.16-0.18</li>
+                                            <li class="table-price__cell">10 years</li>
+                                            <li class="table-price__cell">7.90$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Evolution</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.19-0.22</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">9.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Cold Stretch</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.18-0.20</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">11.50$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Teqtum KM2</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0.19-0.21</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">15.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Lumfer</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0,34</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">17.20$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs-price__item _tabs-block">
+                                <ul class="tabs-price__table table-price">
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell">Material</li>
+                                            <li class="table-price__cell">Side</li>
+                                            <li class="table-price__cell">Thickness, mm</li>
+                                            <li class="table-price__cell">Guarantee</li>
+                                            <li class="table-price__cell">Price with installation, $/m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Classic</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.13-0.15</li>
+                                            <li class="table-price__cell">7 years</li>
+                                            <li class="table-price__cell">6.80$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Premium</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.16-0.18</li>
+                                            <li class="table-price__cell">10 years</li>
+                                            <li class="table-price__cell">7.90$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Evolution</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.19-0.22</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">9.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">MSD Cold Stretch</li>
+                                            <li class="table-price__cell">China</li>
+                                            <li class="table-price__cell">0.18-0.20</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">11.50$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Teqtum KM2</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0.19-0.21</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">15.60$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li class="table-price__row">
+                                        <ul class="table-price__list">
+                                            <li class="table-price__cell table-price__cell_left">Lumfer</li>
+                                            <li class="table-price__cell">Germany</li>
+                                            <li class="table-price__cell">0,34</li>
+                                            <li class="table-price__cell">15 years</li>
+                                            <li class="table-price__cell">17.20$ / m<sup>2</sup></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<div class="calc calc-price">
+                    <div class="calc-price__container _container">
+                        @@include('_calc.html',{})
+                    </div>
+                </div>
+				<section class="reviews-home reviews-price">
+					@@include('_reviews-slider.html',{})
+                    <div class="reviews-price__btn _container">
+                        <a href="#" class="show-more">Просмотреть все отзывы</a>
+                    </div>
+				</section>
+                <div class="request-callback">
+                    <div class="request-callback__container _container">
+                        <section class="request-callback__content">
+                            <div class="request-callback__left-column column-left">
+                                <h2 class="column-left__title title-h2">Stretch ceilings with installation and work</h2>
+                                <p class="column-left__text">
+                                    Select one of the three proposed options to find out the cost of installation with the material
+                                </p>
+                                <a href="#callback" class="column-left__btn btn _popup-link">Order a return call</a>
+                                
+                            </div>
+                            <div class="request-callback__right-column column-right">
+                                <p class="column-right__text">
+                                    <span class="column-right__marker">1.</span>
+                                    Call by phone:<br> <a href="tel:+74951350036" class="column-right__link-phone">+9 (999) 135-00-36.</a> Our managers can answer any questions. You will learn information about the products of the company, current shares, discounts and gifts.
+                                </p>
+                                <p class="column-right__text">
+                                    <span class="column-right__marker">2.</span>
+                                    Use the online calculator for an independent calculation. The program is understandable when used, it is necessary to enter the basic data. Choose the material, indicate the area of the room and quantity: corners, lamps and chandeliers.
+                                </p>
+                                <p class="column-right__text">
+                                    <span class="column-right__marker">3.</span>
+                                    Call the master to measure the room. Departure is free in Moscow and the Moscow region up to 50 km from the Moscow Ring Road. He will come at the agreed time, he will tell in detail about the canvases and designs of interest to you. The measurer will have a catalog of patterns and components with him. After the final choice, you will be given an estimate for stretch ceilings price for 1m2 with installation and operation. The exact amount of your order will be prescribed in the contract for the provision of services during registration. We guarantee a positive result.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+				<div class="price-bg">
+                    <section class="questions questions-price">
+                        @@include('_questions.html',{})
+                    </section>
+                    <section class="froze froze-price">
+                        @@include('_froze.html',{})
+                    </section>
+                </div>
+				@@include('_map.html',{})
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>

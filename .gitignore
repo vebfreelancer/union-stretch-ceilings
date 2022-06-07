@@ -1,0 +1,12 @@
+node_modules
+.jshintrc
+version.json
+/#src/img
+/#src/fonts
+/#src/js/files/map.js
+/#src/js/libs/*
+!swiper.min.js
+!lightgallery.min.js
+!smoothScroll.js
+!inputmask.min.js
+!lozad.js

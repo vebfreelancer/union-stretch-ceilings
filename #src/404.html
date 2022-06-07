@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Контакты"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+                <div class="content-404">
+                    <div class="content-404__container _container">
+                        <div class="content-404__wrapper">
+                            <div class="content-404__error">404</div>
+                            <div class="content-404__text">Кажется что-то пошло не так! Страница, которую вы запрашиваете, не существует. Возможно она устарела, была удалена или был введен неверный адрес в адресной строке.</div>
+                            <a href="index.html" class="content-404__btn btn">На главную</a>
+                        </div>
+                    </div>
+                </div>
+				@@include('_map.html',{})
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>

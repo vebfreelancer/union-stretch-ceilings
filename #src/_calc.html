@@ -1,0 +1,153 @@
+<div class="calc__container" data-spollers="479.8,max">
+    <div class="calc-spoller-nav" data-spoller>
+        <h3 class="calc__title title-h3">Calculate the cost of installing the ceiling</h3>
+        <div class="spoller-arrow">
+            <img src="img/icons/arrow_down.svg" class="nav-tabs-arrow-desc" alt="arrow">
+            <img src="img/icons/arrow_mob.svg" class="nav-tabs-arrow-mob" alt="">
+        </div>
+    </div>
+    <div class="calc-spoller-body" data-screen="">
+        <p class="calc__add-info">The price includes everything: work, materials, organization, control</p>
+        <form action="#" method="POST" class="calc__form" autocomplete="off">
+            <div class="calc__data-input">
+                <div class="calc__wrapper data-left">
+                    <div class="data-left__title calc-subtitle">Where does the ceiling need to be installed?</div>
+                    <div class="data-left__room-type type-room">
+                        <input class="type-room__input" type="checkbox" id="bedroom" name="bedroom">
+                        <label class="type-room__label" for="bedroom">
+                            <span>In the bedroom</span>
+                        </label>
+                        <input class="type-room__input" type="checkbox" id="the_corridor" name="the_corridor">
+                        <label class="type-room__label" for="the_corridor">
+                            <span>In the corridor</span>
+                        </label>
+                        <input class="type-room__input" type="checkbox" id="children" name="children">
+                        <label class="type-room__label" for="children">
+                            <span>In the nursery</span>
+                        </label>
+                        <input class="type-room__input" type="checkbox" id="living_room" name="living_room">
+                        <label class="type-room__label" for="living_room">
+                            <span>In the living room</span>
+                        </label>
+                        <input class="type-room__input" type="checkbox" id="kitchen" name="kitchen">
+                        <label class="type-room__label" for="kitchen">
+                            <span>In the kitchen</span>
+                        </label>
+                        <input class="type-room__input" type="checkbox" id="balcony" name="balcony">
+                        <label class="type-room__label" for="balcony">
+                            <span>On the balcony</span>
+                        </label>
+                        <input class="type-room__input" type="checkbox" id="bathroom" name="bathroom">
+                        <label class="type-room__label" for="bathroom">
+                            <span>In the bathroom</span>
+                        </label>
+                        <input class="type-room__input" type="checkbox" id="all_rooms" name="all_rooms">
+                        <label class="type-room__label" for="all_rooms">
+                            <span>In all rooms</span>
+                        </label>
+                    </div>
+                    <div class="data-left__title calc-subtitle">Select the type of canvas</div>
+                    <div class="data-left__canvas canvas">
+                        <div class="canvas__item">
+                            <input type="radio" class="canvas__checkbox" id="matt" name="canvas" checked value="8">
+                            <label for="matt" class="canvas__label">
+                                <span class="canvas__image">
+                                    <img src="img/main/calc_1.jpg" srcset="img/main/calc_1@2x.png 2x" alt="">
+                                </span>
+                                <span class="canvas__name">MSD</span>
+                            </label>
+                        </div>
+                        <div class="canvas__item">
+                            <input type="radio" class="canvas__checkbox" id="gloss" name="canvas" value="9">
+                            <label for="gloss" class="canvas__label">
+                                <span class="canvas__image">
+                                    <img src="img/main/calc_2.jpg" srcset="img/main/calc_2@2x.png 2x" alt="">
+                                </span>
+                                <span class="canvas__name">Pongs</span>
+                            </label>
+                        </div>
+                        <div class="canvas__item">
+                            <input type="radio" class="canvas__checkbox" id="satin" name="canvas" value="15">
+                            <label for="satin" class="canvas__label">
+                                <span class="canvas__image">
+                                    <img src="img/main/calc_3.jpg" srcset="img/main/calc_3@2x.png 2x" alt="">
+                                </span>
+                                <span class="canvas__name">Fabric</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc__wrapper data-right">
+                    <div class="data-right__item range">
+                        <label class="range__label" for="square">
+                            <span class="range__title calc-subtitle">The area of the room:</span>
+                            <span id="count_square" class="range__count">71 sq. m</span>
+                        </label>
+                        <div class="range__offer">
+                            <input type="range" class="range__input" id="square" name="square" min="1" max="150" step="1" value="1">
+                            <span id="track_square" class="range__track"></span>
+                        </div>
+                        <div class="range__bottom">
+                            <span id="square_min" class="range__output">1</span>
+                            <span id="square_max" class="range__output">150</span>
+                        </div>
+                    </div>
+                    <div class="data-right__item range">
+                        <label class="range__label" for="corners">
+                            <span class="range__title calc-subtitle">Number of angles:</span>
+                            <span id="count_corners" class="range__count">3 corners</span>
+                        </label>
+                        <div class="range__offer">
+                            <input type="range" class="range__input" id="corners" name="corners" min="1" max="6" value="4" data-price="8">
+                            <span id="track_corners" class="range__track"></span>
+                        </div>
+                        <div class="range__bottom">
+                            <span id="corners_min" class="range__output">1</span>
+                            <span id="corners_max" class="range__output">6</span>
+                        </div>
+                    </div>
+                    <div class="data-right__item count-item">
+                        <div class="count-item__label calc-subtitle">The number of lamps</div>
+                        <div class="count-item__flex">
+                            <button type="button" class="count-item__minus"></button>
+                            <input type="number" class="count-item__input" id="fixtures" value="0" data-price="3">
+                            <button type="button" class="count-item__plus"></button>
+                        </div>
+                    </div>
+                    <div class="data-right__item count-item">
+                        <div class="count-item__label calc-subtitle">The number of pipes</div>
+                        <div class="count-item__flex">
+                            <button type="button" class="count-item__minus"></button>
+                            <input type="number" class="count-item__input" id="pipes" value="0" data-price="8">
+                            <button type="button" class="count-item__plus"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calc__data-output output-calc">
+                <div class="output-calc__item output-calc__item_price">
+                    <label for="price" class="output-calc__price-label">Ceiling price:</label>
+                    <div class="output-calc__flex">
+                        <input type="number" class="output-calc__input-price" id="price" name="price" value="0" readonly>
+                        <div class="output-calc__price" id="price_output"></div>
+                        <span class="output-calc__currency"> $</span>
+                    </div>
+                </div>
+                <div class="output-calc__item output-calc__item_installment-plan">
+                    <label for="installment_plan" class="output-calc__price-label">The price of the ceiling in installments:</label>
+                    <div class="output-calc__flex">
+                        <input type="number" class="output-calc__input-price" id="installment_plan" name="installment-plan" value="12" readonly>
+                        <div class="output-calc__price" id="installment_output"></div>
+                        <span class="output-calc__currency">$/mon</span>
+                    </div>
+                </div>
+                <div class="output-calc__item output-calc__item_phone">
+                    <input type="tel" class="output-calc__phone _phone _req" id="calc_phone" name="form[]" data-value=""  placeholder="Your phone number">
+                </div>
+                <div class="output-calc__item">
+                    <button type="submit" class="output-calc__btn btn">Checkout</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

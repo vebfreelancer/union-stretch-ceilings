@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('_head.html',{
+	"title":"About company"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+                <div class="bread-crumbs">
+                    <div class="bread-crumbs__container _container">
+                        <nav class="bread-crumbs__nav">
+                            <ul class="bread-crumbs__list">
+                                <li class="bread-crumbs__item">
+                                    <a href="index.html" class="bread-crumbs__link">Home</a>
+                                    <div class="bread-crumbs__arrow">
+                                        <img src="img/icons/arrow_crumbs.svg" alt="">
+                                    </div>
+                                </li>
+                                <li class="bread-crumbs__item">
+                                    About company
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+				<section class="history about-history">
+					<div class="history__container _container">
+						<h1 class="history__title title-h1">About our company</h1>
+						<div class="history__content">
+							<div class="history__image">
+								<div class="history__bg bg-history-about"></div>
+								<img class="lozad" data-src="img/main/history_img.jpg" data-srcset="img/main/history_img@2x.png 2x" alt="">
+								<div class="history__fio">
+									Fedor Zhilaev
+									<span class="history__label">Director of the company</span>
+								</div>
+								<a href="" class="history__play play-btn d-none">
+									<img src="img/icons/play.svg" alt="">
+								</a>
+							</div>
+							<div class="history__info">
+								<div class="history__logo">
+									<img src="img/main/logo_history.svg" alt="">
+								</div>
+								<div class="history__subtitle">We have been working in the Ukraine stretch ceiling market for more than 15 years</div>
+								<div class="history__text">
+									<p class="history__paragraf">
+										The fishtext site will help a designer, layout designer, webmaster to generate several paragraphs of more or less meaningful text, and a novice speaker to hone his public speaking skills at home. When creating the generator, we used the well-known universal speech code. The text is randomly generated in paragraphs from two to ten sentences per paragraph, which makes the text more attractive and lively for visual and auditory perception.
+									</p>
+									<p class="history__paragraf">
+										At its core, Fishing is an alternative to the traditional Lorem IPSUM, which causes some people bewilderment when trying to read the fish text.
+									</p>
+								</div>
+								<div class="history__achievements achievements-history">
+									<div class="achievements-history__item">
+										<span>81</span>
+										<span>Man in the team</span>
+									</div>
+									<div class="achievements-history__item">
+										<span>15</span>
+										<span>Years in the market</span>
+									</div>
+									<div class="achievements-history__item">
+										<span>26K</span>
+										<span>Satisfied customers</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="about-benefits">
+					<div class="about-benefits__container _container">
+						<h2 class="about-benefits__title title-h2">Why we are</h2>
+                        @@include('_benefits.html',{})
+					</div>
+				</section>
+                <section class="page-gallery about-gallery _gallery">
+					@@include('_gallery.html',{})
+				</section>
+                <section class="payment">
+                    <div class="payment__container _container">
+                        <div class="payment__content">
+                            <div class="payment__info info-payment">
+                                <h2 class="info-payment__title title-h2">Payment of the order online</h2>
+                                <p class="info-payment__text-top">
+                                    After clicking the “Pay Order” button, you will move to the bank's protected page, where you need to enter your payment data
+                                </p>
+                                <a href="" class="info-payment__btn btn">Pay for the order</a>
+                                <p class="info-payment__text-bottom">
+                                    To pay (input of the details of your card) you will be redirected to the payment gateway of Oshchadnyi bank. The connection with the payment gateway and the transfer of information is carried out in a protected mode using the SSL encryption protocol. If your bank supports the technology of safe conducting Internet payments Verified by Visa, MasterCard Securecode, Mir Accept, J-Secure, a special password may also be required to make a payment. This site supports 256-bit encryption. The confidentiality of the reported personal information is ensured by Oshchadnyi bank. The entered information will not be provided to third parties with the exception of cases provided for by the legislation of the Russian Federation. Bank cards payments are carried out in strict accordance with the requirements of payment systems of the world, Visa Int., MasterCard Europe SPRL, JCB
+                                </p>
+                            </div>
+                            <div class="payment__cards cards-payment">
+                                <div class="cards-payment__top">
+                                    <div class="cards-payment__card cards-payment__card_master-card">
+                                        <img src="img/about/master_card.svg" alt="master card">
+                                    </div>
+                                    <div class="cards-payment__card cards-payment__card_visa">
+                                        <img src="img/about/visa.svg" alt="visa">
+                                    </div>
+                                </div>
+                                <div class="cards-payment__bottom-card">
+                                    <div class="cards-payment__image-bottom">
+                                        <img src="img/about/maestro.svg" alt="maestro">
+                                    </div>
+                                    <p class="cards-payment__text">
+                                        <span>For owners of MAESTRO cards:</span> Make sure your card does not have an inscription <span>"The card is not intended for payments on the Internet."</span> In this case, payment is most likely to be successful. If this inscription is not, but the payment still does not pass, most likely the possibility of paying for purchases on the Internet is disabled on your card. You can find out more about connecting this service in the issuing bank.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<section class="froze froze-about">
+					@@include('_froze.html',{})
+				</section>
+				@@include('_map.html',{})
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>

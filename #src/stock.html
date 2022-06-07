@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('_head.html',{
+	"title":"Stock"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+                <div class="wrapper-stock">
+                    <div class="bread-crumbs">
+                        <div class="bread-crumbs__container _container">
+                            <nav class="bread-crumbs__nav">
+                                <ul class="bread-crumbs__list">
+                                    <li class="bread-crumbs__item">
+                                        <a href="index.html" class="bread-crumbs__link">Home</a>
+                                        <div class="bread-crumbs__arrow">
+                                            <img src="img/icons/arrow_crumbs.svg" alt="">
+                                        </div>
+                                    </li>
+                                    <li class="bread-crumbs__item">
+                                        Stock
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <section class="price-main">
+                        <div class="price-main__container _container">
+                            <div class="price-main__content">
+                                <div class="price-main__label">Only until 31.08.2021</div>
+                                <h1 class="price-main__title">Fabric with installation</h1>
+                                <div class="price-main__price">
+                                    <span>6.80</span>
+                                    <span> $</span>
+                                    <span>/</span>
+                                    <span> m<sup>2</sup></span>
+                                </div>
+                                <a href="#calculate" class="price-main__btn btn _popup-link">Calculate</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <section class="stock stock-inner">
+                    <div class="stock__container _container">
+                        <div class="stock__cards cards-stock">
+							<div class="cards-stock__left">
+								<div class="cards-stock__card cards-stock__card_top">
+									<div class="cards-stock__info">
+										<h5 class="cards-stock__title title-h5">More area - less amount!</h5>
+										<p class="cards-stock__text">Order ceilings with a total area of 25 m2 and get a discount from 10%</p>
+										<a href="#callback" class="cards-stock__btn _popup-link">Get</a>
+									</div>
+									<div class="cards-stock__image">
+										<img class="lozad" data-src="img/main/card_1.png" data-srcset="img/main/card_1@2x.png 2x" alt="">
+										<div class="cards-stock__label">
+											<span>from</span>
+											<span>25</span>
+											<span>m<sup>2</sup></span>
+										</div>
+									</div>
+								</div>
+								<div class="cards-stock__card cards-stock__card_bottom">
+									<div class="cards-stock__info">
+										<h5 class="cards-stock__title title-h5">Lamps as a gift!</h5>
+										<p class="cards-stock__text">We give MR-16 LED lamps of any color to choose from</p>
+										<a href="callback" class="cards-stock__btn _popup-link">Get</a>
+									</div>
+									<div class="cards-stock__image">
+										<img class="lozad" data-src="img/main/card_2.png" data-srcset="img/main/card_2@2x.png 2x" alt="">
+										<div class="cards-stock__label">
+											Gift
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cards-stock__right-card">
+								<div class="cards-stock__card">
+									<div class="cards-stock__image">
+										<img class="lozad" data-src="img/main/card_3.png" data-srcset="img/main/card_3@2x.png 2x" alt="">
+										<div class="cards-stock__label">
+											10%
+										</div>
+									</div>
+									<div class="cards-stock__info">
+										<h5 class="cards-stock__title title-h5">Discount by housewarming!</h5>
+										<p class="cards-stock__text">A special discount for new settlers and pensioners in the amount of 10% of the order amount!</p>
+										<a href="callback" class="cards-stock__btn _popup-link">Get</a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        <div class="cards-stock__long long-cards">
+                            <div class="long-cards__card">
+                                <div class="long-cards__content">
+                                    <h5 class="long-cards__title title-h5">Stretch ceiling at our expense!</h5>
+                                    <p class="long-cards__text">Order light lines and get the canvas as a gift!</p>
+                                    <a href="#callback" class="long-cards__btn _popup-link">Get</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<div class="wrapper-bg-stock">
+                    <section class="froze froze-stock">
+                        @@include('_froze.html',{})
+                    </section>
+                    <div class="calc calc-stock">
+                        <div class="calc-price__container _container">
+                            @@include('_calc.html',{})
+                        </div>
+                    </div>
+                    <section class="stock-benefits">
+                        <div class="stock-benefits__container _container">
+                            <h2 class="stock-benefits__title title-h2">Why we are</h2>
+                            @@include('_benefits.html',{})
+                        </div>
+                    </section>
+                </div>
+				<section class="interested interested-stock slider-inner">
+					@@include('_slider_inner.html',{})
+				</section>
+				@@include('_map.html',{})
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>
