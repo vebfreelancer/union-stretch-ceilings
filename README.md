@@ -51,12 +51,12 @@ the number of square meters plus the number of angles multiplied by the price of
 lamps multiplied by the price of that lamp plus the number of pipes multiplied by the price of one pipe.  
 By default, the type of canvas is selected MSD 1 square meter and 4 corners from here just calculate the result
 
-MSD 8<span>$</span> \* 1 sq m + (4 corners \* 8<span>$</span>) = 40<span>$</span> or 8 \* 1 + (4 \* 8) = 40<span>$</span>.
+MSD 8<span>$</span> * 1 sq m + (4 corners * 8<span>$</span>) = 40<span>$</span> **or** 8 * 1 + (4 * 8) = 40<span>$</span>.
 
 The final result is derived from the data entered by the user of the site, for example the user chose the type of  
 canvas Pongs, 125 square meters, 6 corners, 4 lamps, 3 pipes, the result will be
 
-9 \* 125 \+ (6 * 8) \+ (4 * 3) \+ (3 * 8) = 1209<span>$</span>
+9 * 125 + (6 * 8) + (4 * 3) + (3 * 8) = 1209<span>$</span>
 ### Implemented functionality:
 - Calculator
 - Image gallery
