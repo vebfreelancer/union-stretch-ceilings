@@ -2251,10 +2251,10 @@
     }
     &__footer {
         display: grid;
-        grid-template-columns: repeat(5, auto);
+        grid-template-columns: auto auto auto auto auto;
         gap: 20px;
         @media (max-width: $md2+px) {
-            grid-template-columns: repeat(3, auto);
+            grid-template-columns: auto auto auto;
         }
         @media (max-width: $md4+px) {
             gap: 15px;
@@ -3010,7 +3010,7 @@
     }
     @media (max-width: $md2+px){
         width: 100%;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
         gap: 20px 25px;
         align-items: center;
     }
