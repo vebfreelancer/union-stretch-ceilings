@@ -6677,6 +6677,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding: 0px 0px 40px 0px;
 }
 
+.about-gallery__title {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+
 .payment {
   padding: 40px 0px 80px 0px;
 }
