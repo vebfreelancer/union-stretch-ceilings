@@ -59,19 +59,19 @@ canvas Pongs, 125 square meters, 6 corners, 4 lamps, 3 pipes, the result will be
 9 * 125 + (6 * 8) + (4 * 3) + (3 * 8) = 1209<span>$</span>
 ### Implemented functionality:
 - Calculator
-- Image gallery
+- Image gallery[^1]
 - YouTube video
 - Google map
 - Modal windows
-- Sliders
-- Scroll navigation
-- Validation of input fields
+- Sliders[^2]
+- Scroll navigation[^3]
+- Validation of input fields[^4]
 - Responsive adaptive
 - Retina graphics
 - Semantics
 - Cross - browser
 - Lazy loading
-  - Images
+  - Images[^5]
   - Video
   - Map
 - Site menu
@@ -90,9 +90,9 @@ canvas Pongs, 125 square meters, 6 corners, 4 lamps, 3 pipes, the result will be
 - GRID
 - FlexBox
 - BEM
-### Plugins used:
-- [swiper](https://swiperjs.com/)
-- [lightgallery](https://sachinchoolur.github.io/lightgallery.js/)
-- [inputmask](https://github.com/RobinHerbots/Inputmask)
-- [smooth-scroll](https://github.com/cferdinandi/smooth-scroll)
-- [lozad](https://apoorv.pro/lozad.js/)
+#### Plugins used:
+[^1]: [lightgallery](https://sachinchoolur.github.io/lightgallery.js/)
+[^2]: [swiper](https://swiperjs.com/)
+[^3]: [smooth-scroll](https://github.com/cferdinandi/smooth-scroll)
+[^4]: [inputmask](https://github.com/RobinHerbots/Inputmask)
+[^5]: [lozad](https://apoorv.pro/lozad.js/)
