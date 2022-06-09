@@ -6611,6 +6611,192 @@ body.ie ._ibg img {
   left: 0;
 }
 
+._no-webp .wrapper-stock{
+  background-image: url(../img/price/main_bg.jpg); }
+
+.wrapper-stock {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.wrapper-stock .bread-crumbs {
+  background-color: transparent;
+}
+
+.stock-inner {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(9%, rgba(237, 244, 250, 0)), to(#EDF4FA));
+  background: -o-linear-gradient(bottom, rgba(237, 244, 250, 0) 9%, #EDF4FA 100%);
+  background: linear-gradient(0deg, rgba(237, 244, 250, 0) 9%, #EDF4FA 100%);
+  padding: 33px 0px 80px 0px;
+}
+
+.wrapper-bg-stock {
+  background: url(../img/main/bg.svg) no-repeat center center/cover;
+  padding: 76px 0px 365px 0px;
+}
+
+.froze-stock {
+  padding: 0px 0px 40px 0px;
+}
+
+.calc-stock {
+  padding: 40px 0 40px 0;
+}
+
+.calc-stock .calc__container {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.calc-stock .output-calc {
+  background-color: #EDF4FA;
+}
+
+.stock-benefits {
+  padding: 40px 0 0 0;
+}
+
+.stock-benefits__title {
+  margin-bottom: 60px;
+}
+
+.interested-stock {
+  padding: 220px 0px 80px 0px;
+}
+
+.gallery {
+  background-color: #EDF4FA;
+  padding: 30px 0px 80px 0px;
+}
+
+.gallery__title {
+  width: 480px;
+  margin-bottom: 30px;
+}
+
+.gallery__mob-item {
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.tabs-gallery__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tabs-gallery__item {
+  background: #E7E7E7;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #A2A2A2;
+  cursor: pointer;
+}
+
+.tabs-gallery__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tabs-gallery__image img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.tabs-gallery .tabs-block__nav-mobile {
+  margin-bottom: 20px;
+}
+
+.tabs-gallery .tabs-block__menu-mob {
+  padding: 40px;
+}
+
+.presentation {
+  padding: 80px 0;
+}
+
+.presentation__title {
+  width: 420px;
+  margin-bottom: 40px;
+}
+
+.cards-presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards-presentation__image {
+  position: relative;
+}
+
+.cards-presentation__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.cards-presentation__play {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  bottom: -30px;
+}
+
+.cards-presentation__play img {
+  width: 9px;
+  height: 12px;
+}
+
+.cards-presentation__info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  width: 284px;
+  padding-top: 30px;
+  margin-left: auto;
+}
+
+._no-webp .gallery-wrapper{
+  background: url(../img/gallery/wrapper_bg.jpg) no-repeat center center/cover; }
+
+.gallery-wrapper {
+  padding: 80px 0px 80px 0px;
+}
+
+.reviews-gallery {
+  padding-bottom: 50px;
+}
+
+.froze-gallery {
+  padding-top: 55px;
+}
+
 .contacts {
   background-color: #EDF4FA;
   padding: 27px 0 80px 0;
@@ -6921,7 +7107,7 @@ body.ie ._ibg img {
   height: 100%;
   display: block;
   position: absolute;
-  bottom: 0x;
+  bottom: 0;
   right: 0;
   z-index: -1;
 }
@@ -7298,6 +7484,20 @@ img[data-loaded] {
     display: none;
   }
 
+  .wrapper-stock .price-main {
+    padding-bottom: 350px;
+  }
+
+  .tabs-gallery__image img {
+    max-width: 380px;
+    max-height: 300px;
+  }
+
+  .cards-presentation__image img {
+    max-width: 380px;
+    max-height: 300px;
+  }
+
   .form-contacts {
     border-top: 1px solid rgba(52, 58, 86, 0.1);
     padding-top: 50px;
@@ -7520,6 +7720,18 @@ img[data-loaded] {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+
+  .stock-benefits .stock-benefits__container {
+    margin-bottom: -505px;
+  }
+
+  .gallery__mob-item {
+    display: none;
+  }
+
+  .cards-presentation__card:nth-child(3) ~ div {
+    margin-top: 30px;
   }
 }
 
@@ -8023,6 +8235,15 @@ img[data-loaded] {
     background-color: #405EAA;
   }
 
+  .tabs-gallery__nav {
+    margin-bottom: 30px;
+  }
+
+  .tabs-gallery__item._active {
+    background-color: #405EAA;
+    color: #fff;
+  }
+
   .contacts-card__time span {
     display: block;
   }
@@ -8158,6 +8379,10 @@ img[data-loaded] {
   .vacancy-page-main__img img {
     width: 435px;
     height: 445px;
+  }
+
+  .tabs-gallery__image:nth-child(3) ~ div {
+    margin-top: 30px;
   }
 
   .details-contacts__row .details-contacts__item {
@@ -8588,6 +8813,30 @@ img[data-loaded] {
     height: 100%;
   }
 
+  .stock-benefits .stock-benefits__title {
+    text-align: center;
+  }
+
+  .tabs-gallery {
+    position: relative;
+  }
+
+  .tabs-gallery__item {
+    padding: 10px 10px;
+  }
+
+  .tabs-gallery__image {
+    width: 32%;
+  }
+
+  .cards-presentation__card {
+    width: 32%;
+  }
+
+  .cards-presentation__info {
+    width: 232px;
+  }
+
   .contacts-card {
     padding: 40px;
   }
@@ -8766,6 +9015,14 @@ img[data-loaded] {
 
   .vacancy-page-main__title {
     width: calc(290px + 390 * ((100vw - 320px) / 880));
+  }
+
+  .gallery__title {
+    width: calc(220px + 260 * ((100vw - 320px) / 880));
+  }
+
+  .presentation__title {
+    width: calc(220px + 200 * ((100vw - 320px) / 880));
   }
 
   .content-404__error {
@@ -9074,6 +9331,11 @@ img[data-loaded] {
   .tabs-price__title {
     padding: 0;
     width: 49%;
+  }
+
+  .tabs-gallery__nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .contacts-card__item:nth-child(1) {
@@ -9460,6 +9722,23 @@ img[data-loaded] {
 
   .card-vacancy__block:first-child {
     margin-bottom: 35px;
+  }
+
+  .cards-presentation__play {
+    width: 45px;
+    height: 45px;
+    bottom: -23px;
+    left: 15px;
+  }
+
+  .cards-presentation__play img {
+    width: 7px;
+    height: 9px;
+  }
+
+  .cards-presentation__info {
+    font-size: 15px;
+    width: 180px;
   }
 
   .contacts-card__item:nth-child(1) {
@@ -10292,6 +10571,74 @@ img[data-loaded] {
 
   .card-vacancy__item {
     margin-bottom: 15px;
+  }
+
+  .stock-inner {
+    padding: 0px 0px 30px 0px;
+  }
+
+  .wrapper-bg-stock {
+    padding: 30px 0px 30px 0px;
+  }
+
+  .froze-stock {
+    padding: 0px 0px 15px 0px;
+  }
+
+  .calc-stock {
+    padding: 15px 0px 15px 0px;
+  }
+
+  .stock-benefits {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .stock-benefits__title {
+    margin-bottom: 20px;
+  }
+
+  .interested-stock {
+    padding: 30px 0px 30px 0px;
+  }
+
+  .gallery {
+    padding: 30px 0;
+  }
+
+  .gallery__title {
+    margin-bottom: 15px;
+  }
+
+  .presentation {
+    padding: 30px 0;
+  }
+
+  .presentation__title {
+    margin-bottom: 20px;
+  }
+
+  .cards-presentation__card {
+    width: 48%;
+  }
+
+  .cards-presentation__card:nth-child(2) ~ div {
+    margin-top: 20px;
+  }
+
+  .cards-presentation__info {
+    width: 200px;
+  }
+
+  .gallery-wrapper {
+    padding: 30px 0px 30px 0px;
+  }
+
+  .reviews-gallery {
+    padding-bottom: 15px;
+  }
+
+  .froze-gallery {
+    padding-top: 15px;
   }
 
   .contacts {
@@ -12233,6 +12580,63 @@ img[data-loaded] {
     top: 0;
   }
 
+  .wrapper-stock {
+    background-position: right -195px top;
+  }
+
+  .wrapper-stock .price-main {
+    padding-bottom: 20px;
+  }
+
+  .stock-inner {
+    padding-top: 20px;
+  }
+
+  .calc-stock .calc__container {
+    border-radius: 4px;
+  }
+
+  .tabs-gallery__item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .tabs-gallery__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .tabs-gallery__image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .tabs-gallery__image:last-child {
+    margin-bottom: 0;
+  }
+
+  .tabs-gallery .tabs-block__nav-mobile {
+    margin-bottom: 10px;
+  }
+
+  .tabs-gallery .tabs-block__menu-mob {
+    padding: 15px;
+  }
+
+  .cards-presentation__card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .cards-presentation__card:last-child {
+    margin-bottom: 0;
+  }
+
+  .cards-presentation__info {
+    padding-top: 23px;
+    width: 175px;
+    margin: 0 auto;
+  }
+
   .contacts-card {
     padding: 20px 15px 15px 15px;
   }
@@ -12548,6 +12952,10 @@ img[data-loaded] {
   .first-screen {
     padding-bottom: calc(35px + 190 * ((100vw - 320px) / 880));
   }
+
+  .wrapper-stock .price-main {
+    padding-bottom: calc(15px + 335 * ((100vw - 320px) / 880));
+  }
 }
 
 @media (max-width: 1220px) and (min-width: 1101px) {
@@ -12586,6 +12994,15 @@ img[data-loaded] {
 @media (max-width: 1100px) and (min-width: 767.98px) {
   .data-left {
     width: 50%;
+  }
+
+  .tabs-gallery__item {
+    width: 23%;
+    margin-right: 10px;
+  }
+
+  .tabs-gallery__item:nth-child(4) ~ div {
+    margin-top: 15px;
   }
 }
 
@@ -12690,6 +13107,22 @@ img[data-loaded] {
   .achievements-history__item span:last-child {
     margin-top: 10px;
   }
+
+  .tabs-gallery__item {
+    width: 48%;
+  }
+
+  .tabs-gallery__item:nth-child(2) ~ div {
+    margin-top: 15px;
+  }
+
+  .tabs-gallery__image {
+    width: 48%;
+  }
+
+  .tabs-gallery__image:nth-child(2) ~ div {
+    margin-top: 25px;
+  }
 }
 
 @media (max-width: 1220px) and (min-width: 767.98px) {
@@ -12703,6 +13136,10 @@ img[data-loaded] {
 
   .gallery-product {
     padding: 0 20px;
+  }
+
+  .tabs-gallery__image:nth-child(3) ~ div {
+    margin-top: 22px;
   }
 }
 
@@ -12762,6 +13199,10 @@ img[data-loaded] {
 ._webp .wrapper-price{ background-image: url(../img/price/main_bg.webp); }
 
 ._webp .vacancy-page-main{ background: url(../img/vacancies/page_vacancy_bg.webp) no-repeat center top/cover; }
+
+._webp .wrapper-stock{ background-image: url(../img/price/main_bg.webp); }
+
+._webp .gallery-wrapper{ background: url(../img/gallery/wrapper_bg.webp) no-repeat center center/cover; }
 
 ._webp .content-404{ background: url(../img/gallery/wrapper_bg.webp) no-repeat center top/cover; }
 
