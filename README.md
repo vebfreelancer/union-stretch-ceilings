@@ -93,6 +93,11 @@ canvas Pongs, 125 square meters, 6 corners, 4 lamps, 3 pipes, the result will be
 ### Tests
 - HTML validity - the result of the test for all pages of the site there are no errors or warnings according to the service Markup Validation Service W3C, validator checks the [markup validity](https://validator.w3.org/#validate_by_uri).
 - CSS validity - no errors according to Markup Validation Service W3C, [css - validator](https://jigsaw.w3.org/css-validator/).
+- speed test result on [PageSpeed Insights] (https://pagespeed.web.dev/)
+  - ~ 95% Desktop
+  - ~ 80% Mobile devices
+
+Given that the layout files are located on the githab server, which is accessible only to the owners in connection with which it is impossible to perform server settings for speed optimization.
 #### Plugins used:
 [^1]: [lightgallery](https://sachinchoolur.github.io/lightgallery.js/)
 [^2]: [swiper](https://swiperjs.com/)
