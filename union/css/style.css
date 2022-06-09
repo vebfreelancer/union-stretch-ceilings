@@ -6234,6 +6234,794 @@ body.ie ._ibg img {
   padding: 29px 0px 80px 0px;
 }
 
+.vacancies-wrapper {
+  background: url(../img/vacancies/main_bg.svg) no-repeat center center/cover;
+}
+
+.vacancies-main {
+  padding: 25px 0px 40px 0px;
+}
+
+.vacancies-main__title {
+  margin-bottom: 45px;
+}
+
+.card-vacancies {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 30px 55px 35px 50px;
+}
+
+.card-vacancies:first-child {
+  margin-bottom: 15px;
+}
+
+.card-vacancies__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.card-vacancies__image {
+  margin-right: 50px;
+}
+
+.card-vacancies__image img {
+  width: 88px;
+  height: 104px;
+}
+
+.card-vacancies__info {
+  border-left: 1px solid rgba(52, 58, 86, 0.1);
+  padding-left: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.card-vacancies__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.card-vacancies__item {
+  margin-right: 40px;
+}
+
+.card-vacancies__item:last-child {
+  margin-right: 0;
+}
+
+.card-vacancies__label {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.card-vacancies__text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.card-vacancies__btn {
+  width: 200px;
+  height: 60px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.training {
+  padding: 40px 0px 80px 0px;
+}
+
+.training__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.training__info {
+  width: 71%;
+}
+
+.training__title {
+  width: 520px;
+  margin-bottom: 25px;
+}
+
+.training__text {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.training__title-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.training__btn {
+  width: 278px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.training__btn a {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+.training__image img {
+  max-width: 288px;
+  max-height: 992px;
+  width: 100%;
+  height: 100%;
+}
+
+.list-training__item {
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: normal;
+  line-height: 160%;
+  margin-bottom: 20px;
+  padding-left: 28px;
+  position: relative;
+}
+
+.list-training__item:last-child {
+  margin-bottom: 0;
+}
+
+.list-training__marker {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #405EAA;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.bottom-training {
+  position: relative;
+  margin-top: 136px;
+  padding: 110px 60px 50px 0px;
+}
+
+.bottom-training__image img {
+  max-width: 407px;
+  max-height: 542px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-training {
+  width: 59%;
+  margin-left: auto;
+}
+
+.card-training__title {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.card-training__text {
+  font-family: "Montserrat";
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+.card-training__input {
+  background-color: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  width: 375px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.card-training__input input {
+  border-radius: 4px;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.card-training__input input::-webkit-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #868686;
+}
+
+.card-training__input input::-moz-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #868686;
+}
+
+.card-training__input input:-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #868686;
+}
+
+.card-training__input input::-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #868686;
+}
+
+.card-training__input input::placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #868686;
+}
+
+.card-training__input input:focus {
+  color: #868686;
+}
+
+.card-training__input._error {
+  border-color: red;
+}
+
+.card-training__btn {
+  width: 278px;
+  height: 60px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+._no-webp .vacancy-page-main{
+  background: url(../img/vacancies/page_vacancy_bg.jpg) no-repeat center top/cover; }
+
+.vacancy-page-main {
+  padding: 20px 0px 77px 0px;
+}
+
+.vacancy-page-main__title {
+  margin-bottom: 30px;
+  width: 680px;
+}
+
+.vacancy-page-main__sub-title {
+  margin-bottom: 15px;
+}
+
+.vacancy-page-main__text {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
+.card-vacancy {
+  -webkit-box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 40px 40px 65px 40px;
+}
+
+.card-vacancy__title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #405EAA;
+  margin-bottom: 10px;
+}
+
+.card-vacancy__sub-text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
+.card-vacancy__flex {
+  border-top: 1px solid #ECECEC;
+  padding-top: 30px;
+}
+
+.card-vacancy__sub-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 25px;
+}
+
+.card-vacancy__item {
+  font-family: "Montserrat";
+  line-height: 160%;
+  margin-bottom: 25px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.card-vacancy__item:last-child {
+  margin-bottom: 0;
+}
+
+.card-vacancy__item::before {
+  content: "";
+  background: url(../img/product/icon_list.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.contacts {
+  background-color: #EDF4FA;
+  padding: 27px 0 80px 0;
+}
+
+.contacts__title {
+  margin-bottom: 40px;
+}
+
+.contacts-card {
+  -webkit-box-shadow: 0px 10px 40px rgba(38, 38, 38, 0.05), 0px 2px 4px rgba(38, 38, 38, 0.02);
+          box-shadow: 0px 10px 40px rgba(38, 38, 38, 0.05), 0px 2px 4px rgba(38, 38, 38, 0.02);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 40px 55px 60px 60px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 51.5%;
+          flex: 0 1 51.5%;
+}
+
+.contacts-card__title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: inherit;
+}
+
+.contacts-card__address {
+  border-bottom: 1px solid rgba(52, 58, 86, 0.1);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140.5%;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.contacts-card__links {
+  margin-bottom: 32px;
+  gap: 30px 15px;
+}
+
+.contacts-card__label {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #405EAA;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.contacts-card__time {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140.5%;
+  letter-spacing: 0.05em;
+}
+
+.contacts-card__link {
+  font-family: "Montserrat";
+  font-size: 17px;
+  line-height: 140.5%;
+  color: #343A56;
+}
+
+.contacts-card__link_phone {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.contacts-card__link_mail {
+  font-weight: 500;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.contacts-card__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-card__socials-item {
+  background-color: #F1F1F1;
+  border-radius: 2.66667px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.contacts-card__socials-item:last-child {
+  margin-right: 0;
+}
+
+.contacts-card__socials-item a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-contacts__input {
+  border-radius: 4px;
+  width: 56%;
+  height: 60px;
+}
+
+.form-contacts__phone {
+  background: #F1F1F1;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.form-contacts__phone::-webkit-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #343A56;
+}
+
+.form-contacts__phone::-moz-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #343A56;
+}
+
+.form-contacts__phone:-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #343A56;
+}
+
+.form-contacts__phone::-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #343A56;
+}
+
+.form-contacts__phone::placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #343A56;
+}
+
+.form-contacts__phone:focus {
+  color: #343A56;
+}
+
+.form-contacts__phone._error::-webkit-input-placeholder {
+  color: red;
+}
+
+.form-contacts__phone._error::-moz-placeholder {
+  color: red;
+}
+
+.form-contacts__phone._error:-ms-input-placeholder {
+  color: red;
+}
+
+.form-contacts__phone._error::-ms-input-placeholder {
+  color: red;
+}
+
+.form-contacts__phone._error::placeholder {
+  color: red;
+}
+
+.form-contacts__btn {
+  width: 44%;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.details-contacts {
+  padding-top: 40px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 43.5%;
+          flex: 0 1 43.5%;
+}
+
+.details-contacts__title {
+  font-weight: bold;
+  text-transform: inherit;
+  margin-bottom: 18px;
+}
+
+.details-contacts__organization {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140.5%;
+  margin-bottom: 20px;
+}
+
+.details-contacts__row {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.details-contacts__label {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #405EAA;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.details-contacts__text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140.5%;
+  letter-spacing: 0.05em;
+}
+
+.details-contacts__items_long .details-contacts__item:first-child {
+  margin-bottom: 20px;
+}
+
+.details-contacts__bank {
+  display: block;
+}
+
+.footer-details {
+  border-top: 1px solid rgba(52, 58, 86, 0.1);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.footer-details__item:first-child {
+  margin-bottom: 20px;
+}
+
+.footer-details__label {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140.5%;
+  color: #405EAA;
+}
+
+.footer-details__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140.5%;
+}
+
+.our-team {
+  padding: 80px 0px 80px 0px;
+}
+
+.our-team__title {
+  margin-bottom: 40px;
+}
+
+.our-team__cards {
+  background-color: #FFFFFF;
+  border: 1px solid #D4DCEE;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.our-team__cards::before {
+  content: "";
+  -webkit-box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.05), 0px 16px 16px rgba(0, 0, 0, 0.05), 0px 8px 8px rgba(0, 0, 0, 0.05), 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 2px 2px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.05), 0px 16px 16px rgba(0, 0, 0, 0.05), 0px 8px 8px rgba(0, 0, 0, 0.05), 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 2px 2px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  width: 98%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0x;
+  right: 0;
+  z-index: -1;
+}
+
+.card-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 279px;
+  padding: 15px 0px 0px 30px;
+  width: 33.333%;
+}
+
+.card-team:nth-child(1) img {
+  max-width: 161px;
+  max-height: 238px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-team:nth-child(2) img {
+  max-width: 168px;
+  max-height: 234px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-team:nth-child(3) img {
+  max-width: 208px;
+  max-height: 234px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-team:nth-child(4) img {
+  max-width: 156px;
+  max-height: 265px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-team:nth-child(5) img {
+  max-width: 199px;
+  max-height: 252px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-team:nth-child(6) img {
+  max-width: 190px;
+  max-height: 252px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-team__info {
+  width: 155px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-top: 45px;
+}
+
+.card-team__fio {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  color: #405EAA;
+  width: 135px;
+  margin-bottom: 10px;
+}
+
+.card-team__position {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.card-team__experience {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 158.47%;
+  color: #8D8D8D;
+}
+
+.froze-contacts {
+  background-color: #EDF4FA;
+  padding: 52px 0px 80px 0px;
+}
+
 /* ######################################################## MAIN UNIT ######################################################## */
 
 .page {
@@ -6383,6 +7171,15 @@ img[data-loaded] {
   cursor: pointer;
 }
 
+@media (min-width: 401px) {
+  .contacts-card__links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (min-width: 479.98px) {
   .socials-footer {
     display: -webkit-box;
@@ -6499,6 +7296,16 @@ img[data-loaded] {
 
   .column-right__text br {
     display: none;
+  }
+
+  .form-contacts {
+    border-top: 1px solid rgba(52, 58, 86, 0.1);
+    padding-top: 50px;
+  }
+
+  .details-contacts__row {
+    border-top: 1px solid rgba(52, 58, 86, 0.1);
+    padding-top: 20px;
   }
 
   .nav-tabs-arrow-mob {
@@ -6681,6 +7488,38 @@ img[data-loaded] {
 
   .list-track-system:first-child li {
     padding-right: 50px;
+  }
+
+  .card-vacancies__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .training__info {
+    padding: 40px 35px 0 0;
+  }
+
+  .training__text {
+    margin-bottom: 40px;
+  }
+
+  .card-training__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -6903,6 +7742,87 @@ img[data-loaded] {
   .column-left__text {
     padding-right: 20px;
   }
+
+  .card-vacancies__criteria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .bottom-training {
+    -webkit-box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+  }
+
+  .bottom-training__image {
+    position: absolute;
+    left: 22px;
+    bottom: 0;
+  }
+
+  .card-training__title {
+    width: 320px;
+  }
+
+  .vacancy-page-main__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .vacancy-page-main__info {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 680px;
+            flex: 0 1 680px;
+    padding-top: 10px;
+  }
+
+  .card-vacancy__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .card-vacancy__block:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 470px;
+            flex: 0 1 470px;
+    padding-right: 20px;
+  }
+
+  .card-vacancy__block:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 560px;
+            flex: 0 1 560px;
+    padding-right: 30px;
+  }
+
+  .contacts__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .card-team:nth-child(3) ~ div {
+    border-top: 1px solid rgba(41, 81, 169, 0.2);
+  }
+
+  .card-team:nth-child(3) ~ div .card-team__image {
+    margin-bottom: -1px;
+  }
+
+  .card-team:nth-child(2) {
+    -webkit-box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.05), 0px 16px 16px rgba(0, 0, 0, 0.05), 0px 8px 8px rgba(0, 0, 0, 0.05), 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 2px 2px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.05), 0px 16px 16px rgba(0, 0, 0, 0.05), 0px 8px 8px rgba(0, 0, 0, 0.05), 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 2px 2px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05);
+  }
 }
 
 @media (min-width: 992px) {
@@ -7102,6 +8022,27 @@ img[data-loaded] {
   .tabs-price__title._active::before {
     background-color: #405EAA;
   }
+
+  .contacts-card__time span {
+    display: block;
+  }
+
+  .form-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .form-contacts__phone {
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .form-contacts__btn {
+    border-radius: 0px 4px 4px 0px;
+  }
 }
 
 @media (min-width: 1220px) {
@@ -7208,6 +8149,47 @@ img[data-loaded] {
 
   .item-10 p:first-child {
     white-space: nowrap;
+  }
+
+  .vacancy-page-main__info {
+    margin-right: 20px;
+  }
+
+  .vacancy-page-main__img img {
+    width: 435px;
+    height: 445px;
+  }
+
+  .details-contacts__row .details-contacts__item {
+    margin-right: 36px;
+  }
+
+  .details-contacts__row .details-contacts__item:last-child {
+    margin-right: 0;
+  }
+
+  .card-team:nth-child(1) {
+    padding-right: 37px;
+  }
+
+  .card-team:nth-child(2) {
+    padding-right: 24px;
+  }
+
+  .card-team:nth-child(3) {
+    padding-right: 11px;
+  }
+
+  .card-team:nth-child(4) {
+    padding-right: 31px;
+  }
+
+  .card-team:nth-child(5) {
+    padding-right: 10px;
+  }
+
+  .card-team:nth-child(6) {
+    padding-right: 20px;
   }
 
   .items-benefits__item:nth-child(1) {
@@ -7563,6 +8545,82 @@ img[data-loaded] {
             flex: 0 0 54%;
   }
 
+  .card-vacancies {
+    padding: 25px;
+  }
+
+  .card-vacancies__image {
+    margin-right: 20px;
+  }
+
+  .card-vacancies__info {
+    padding-left: 20px;
+  }
+
+  .card-vacancies__item {
+    margin-right: 25px;
+  }
+
+  .list-training__item {
+    margin-bottom: 10px;
+  }
+
+  .bottom-training {
+    padding: 60px 60px 50px 0px;
+  }
+
+  .card-training {
+    width: 55%;
+  }
+
+  .card-training__input {
+    width: 45%;
+  }
+
+  .card-training__btn {
+    width: 55%;
+  }
+
+  .vacancy-page-main__img img {
+    max-width: 435px;
+    max-height: 445px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .contacts-card {
+    padding: 40px;
+  }
+
+  .contacts-card__time span {
+    margin-right: 15px;
+  }
+
+  .form-contacts__input {
+    width: 50%;
+  }
+
+  .form-contacts__btn {
+    width: 50%;
+  }
+
+  .details-contacts__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .details-contacts__row .details-contacts__item {
+    width: 50%;
+  }
+
+  .details-contacts__row .details-contacts__item:nth-child(2) ~ div {
+    margin-top: 15px;
+  }
+
+  .card-team {
+    padding: 15px 5px 0px 16px;
+  }
+
   .items-benefits {
     width: calc(290px + 1150 * ((100vw - 320px) / 1600));
     -ms-flex-wrap: wrap;
@@ -7696,6 +8754,18 @@ img[data-loaded] {
 
   .price-table__title {
     width: calc(275px + 305 * ((100vw - 320px) / 880));
+  }
+
+  .training__title {
+    width: calc(260px + 260 * ((100vw - 320px) / 880));
+  }
+
+  .list-training__item {
+    font-size: calc(12px + 6 * ((100vw - 320px) / 880));
+  }
+
+  .vacancy-page-main__title {
+    width: calc(290px + 390 * ((100vw - 320px) / 880));
   }
 
   .content-404__error {
@@ -8006,6 +9076,31 @@ img[data-loaded] {
     width: 49%;
   }
 
+  .contacts-card__item:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+
+  .contacts-card__item:nth-child(4) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+
+  .form-contacts__input {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .form-contacts__phone {
+    border-radius: 4px;
+  }
+
+  .form-contacts__btn {
+    width: 100%;
+  }
+
   .bread-crumbs {
     padding-top: 30px;
   }
@@ -8306,6 +9401,94 @@ img[data-loaded] {
     -webkit-transform: translate(-50%, 0);
         -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
+  }
+
+  .card-vacancies__title {
+    width: 90%;
+    margin-bottom: 12px;
+  }
+
+  .card-vacancies__item {
+    margin: 0 0 10px 0;
+  }
+
+  .card-vacancies__item:last-child {
+    margin: 0;
+  }
+
+  .training__text {
+    line-height: 140%;
+  }
+
+  .training__btn {
+    width: 430px;
+  }
+
+  .list-training__item {
+    line-height: 140%;
+  }
+
+  .bottom-training {
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .bottom-training__image {
+    text-align: center;
+  }
+
+  .card-training {
+    -webkit-box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 25px 15px;
+  }
+
+  .vacancy-page-main__info {
+    margin-bottom: 35px;
+  }
+
+  .vacancy-page-main__text {
+    width: 595px;
+  }
+
+  .vacancy-page-main__img {
+    text-align: center;
+  }
+
+  .card-vacancy__block:first-child {
+    margin-bottom: 35px;
+  }
+
+  .contacts-card__item:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+
+  .contacts-card__item:nth-child(4) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+
+  .contacts-card__time span {
+    display: block;
+  }
+
+  .details-contacts__row .details-contacts__item {
+    width: 35%;
+  }
+
+  .our-team__title {
+    margin-bottom: 20px;
+  }
+
+  .card-team {
+    width: 50%;
+    padding: 20px 20px 0 20px;
   }
 
   .content-404__wrapper {
@@ -9034,6 +10217,106 @@ img[data-loaded] {
     padding: 22px 0px 30px 0px;
   }
 
+  .vacancies-main {
+    padding: 30px 0px 15px 0px;
+  }
+
+  .vacancies-main__title {
+    margin-bottom: 20px;
+  }
+
+  .card-vacancies__content {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .card-vacancies__title {
+    width: 100%;
+  }
+
+  .card-vacancies__btn {
+    margin-top: 15px;
+  }
+
+  .training {
+    padding: 15px 0px 30px 0px;
+  }
+
+  .training__top-mob {
+    margin-bottom: 30px;
+  }
+
+  .training__title {
+    margin-bottom: 15px;
+  }
+
+  .training__btn {
+    width: 100%;
+  }
+
+  .training__image img {
+    max-height: 570px;
+  }
+
+  .card-training__title {
+    text-align: center;
+  }
+
+  .card-training__input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .card-training__btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .vacancy-page-main {
+    padding: 20px 0px 30px 0px;
+  }
+
+  .vacancy-page-main__sub-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .vacancy-page-main__text {
+    line-height: 120%;
+  }
+
+  .card-vacancy {
+    padding: 25px 15px 25px 15px;
+  }
+
+  .card-vacancy__item {
+    margin-bottom: 15px;
+  }
+
+  .contacts {
+    padding: 30px 0px 22px 0px;
+  }
+
+  .contacts__title {
+    margin-bottom: 20px;
+  }
+
+  .our-team {
+    padding: 30px 0;
+  }
+
+  .card-team {
+    border-bottom: 1px solid #DBDBDB;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .froze-contacts {
+    padding: 30px 0px 30px 0px;
+  }
+
   .items-benefits {
     padding: 30px 15px 30px 15px;
   }
@@ -9147,6 +10430,19 @@ img[data-loaded] {
 
   .menu-mob__flex {
     padding: 13px 15px 13px 15px;
+  }
+
+  .card-vacancies {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 650px) {
+  .vacancy-page-main__text {
+    width: 100%;
   }
 }
 
@@ -9338,6 +10634,34 @@ img[data-loaded] {
 
   .container-price-table {
     overflow-x: auto;
+  }
+
+  .contacts-card__item {
+    margin-bottom: 15px;
+  }
+
+  .contacts-card__item:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+
+  .contacts-card__item:nth-child(4) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+
+  .contacts-card__time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .details-contacts__row .details-contacts__item {
+    width: 50%;
   }
 }
 
@@ -10738,6 +12062,402 @@ img[data-loaded] {
     font-size: 12px;
   }
 
+  .card-vacancies {
+    padding: 15px 15px 20px 15px;
+  }
+
+  .card-vacancies__image {
+    margin-right: 15px;
+  }
+
+  .card-vacancies__image img {
+    width: 50px;
+    height: 60px;
+  }
+
+  .card-vacancies__info {
+    border: 0;
+    padding-left: 0;
+  }
+
+  .card-vacancies__wrapper {
+    padding-top: 12px;
+  }
+
+  .card-vacancies__title {
+    font-size: 14px;
+  }
+
+  .card-vacancies__label {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  .card-vacancies__text {
+    font-size: 12px;
+  }
+
+  .card-vacancies__btn {
+    font-size: 12px;
+    width: 160px;
+    height: 40px;
+  }
+
+  .training__wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 75px;
+    position: relative;
+  }
+
+  .training__info {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 60%;
+            flex: 0 1 60%;
+  }
+
+  .training__text {
+    font-size: 12px;
+    line-height: 160%;
+  }
+
+  .training__title-list {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .training__btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+  .training__image {
+    margin-right: calc(((100vw - 479px) / 3));
+    margin-top: -15px;
+  }
+
+  .training__image img {
+    width: 159px;
+    height: 551px;
+  }
+
+  .list-training__item {
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  .list-training__marker {
+    font-size: 14px;
+    top: 0;
+  }
+
+  .bottom-training {
+    margin-top: 40px;
+  }
+
+  .bottom-training__image {
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .bottom-training__image img {
+    width: 239px;
+    height: 319px;
+  }
+
+  .card-training__title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .card-training__text {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .card-training__input input {
+    padding: 15px;
+  }
+
+  .vacancy-page-main__title {
+    margin-bottom: 15px;
+  }
+
+  .vacancy-page-main__sub-title {
+    font-size: 18px;
+    line-height: 120%;
+  }
+
+  .vacancy-page-main__text {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .card-vacancy__title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .card-vacancy__sub-text {
+    font-size: 15px;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+
+  .card-vacancy__flex {
+    padding-top: 15px;
+  }
+
+  .card-vacancy__block:first-child {
+    margin-bottom: 15px;
+  }
+
+  .card-vacancy__sub-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .card-vacancy__item {
+    font-size: 12px;
+    padding-left: 28px;
+    margin-bottom: 10px;
+  }
+
+  .card-vacancy__item::before {
+    width: 18px;
+    height: 18px;
+    top: 0;
+  }
+
+  .contacts-card {
+    padding: 20px 15px 15px 15px;
+  }
+
+  .contacts-card__title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .contacts-card__address {
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0;
+    border: 0;
+  }
+
+  .contacts-card__links {
+    margin-bottom: 15px;
+  }
+
+  .contacts-card__label {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .contacts-card__time {
+    font-size: 14px;
+  }
+
+  .contacts-card__link_phone {
+    font-size: 16px;
+  }
+
+  .contacts-card__link_mail {
+    font-size: 14px;
+  }
+
+  .contacts-card__socials {
+    margin-top: 10px;
+  }
+
+  .contacts-card__socials-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .form-contacts__input {
+    height: 50px;
+  }
+
+  .form-contacts__phone {
+    padding: 15px;
+  }
+
+  .form-contacts__phone::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+
+  .form-contacts__phone::-moz-placeholder {
+    font-size: 12px;
+  }
+
+  .form-contacts__phone:-ms-input-placeholder {
+    font-size: 12px;
+  }
+
+  .form-contacts__phone::-ms-input-placeholder {
+    font-size: 12px;
+  }
+
+  .form-contacts__phone::placeholder {
+    font-size: 12px;
+  }
+
+  .form-contacts__btn {
+    height: 50px;
+  }
+
+  .details-contacts {
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .details-contacts__title {
+    margin-bottom: 5px;
+  }
+
+  .details-contacts__organization {
+    font-size: 14px;
+  }
+
+  .details-contacts__row {
+    margin-bottom: 15px;
+  }
+
+  .details-contacts__label {
+    font-size: 10px;
+  }
+
+  .details-contacts__text {
+    font-size: 14px;
+  }
+
+  .details-contacts__items_long .details-contacts__item:first-child {
+    margin-bottom: 15px;
+    width: 230px;
+  }
+
+  .details-contacts__items_long .details-contacts__item:last-child {
+    width: 180px;
+  }
+
+  .footer-details {
+    border: 0;
+    padding: 0;
+    margin-top: 15px;
+  }
+
+  .footer-details__item {
+    width: 180px;
+  }
+
+  .footer-details__item:first-child {
+    margin-bottom: 15px;
+  }
+
+  .footer-details__label {
+    font-size: 10px;
+  }
+
+  .footer-details__text {
+    font-size: 14px;
+  }
+
+  .our-team__cards {
+    -webkit-box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.05), 0px 16px 16px rgba(0, 0, 0, 0.05), 0px 8px 8px rgba(0, 0, 0, 0.05), 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 2px 2px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.05), 0px 16px 16px rgba(0, 0, 0, 0.05), 0px 8px 8px rgba(0, 0, 0, 0.05), 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 2px 2px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+  }
+
+  .our-team__cards::before {
+    display: none;
+  }
+
+  .card-team {
+    height: 180px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .card-team:nth-child(1) {
+    padding: 12px 25px 0px 15px;
+  }
+
+  .card-team:nth-child(1) img {
+    width: 108px;
+    height: 160px;
+  }
+
+  .card-team:nth-child(2) {
+    padding: 12px 25px 0px 15px;
+  }
+
+  .card-team:nth-child(2) img {
+    width: 115px;
+    height: 160px;
+  }
+
+  .card-team:nth-child(3) {
+    padding: 12px 11px 0px 15px;
+  }
+
+  .card-team:nth-child(3) img {
+    width: 142px;
+    height: 160px;
+  }
+
+  .card-team:nth-child(4) {
+    padding: 12px 23px 0px 15px;
+  }
+
+  .card-team:nth-child(4) img {
+    width: 102px;
+    height: 167px;
+  }
+
+  .card-team:nth-child(5) {
+    padding: 12px 18px 0px 15px;
+  }
+
+  .card-team:nth-child(5) img {
+    width: 131px;
+    height: 165px;
+  }
+
+  .card-team:nth-child(6) {
+    padding: 12px 15px 0px 15px;
+  }
+
+  .card-team:nth-child(6) img {
+    width: 125px;
+    height: 166px;
+  }
+
+  .card-team__info {
+    padding-top: 30px;
+  }
+
+  .card-team__fio {
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 17.55px;
+  }
+
+  .card-team__position {
+    font-size: 10px;
+    margin-bottom: 10px;
+    width: 125px;
+  }
+
+  .card-team__experience {
+    font-size: 10px;
+  }
+
   .bread-crumbs {
     display: none;
   }
@@ -10907,6 +12627,10 @@ img[data-loaded] {
     font-size: 14px;
     line-height: 1.4em;
   }
+
+  .card-team {
+    border: 1px solid #DBDBDB;
+  }
 }
 
 @media (max-width: 1220px) and (min-width: 991.98px) {
@@ -10924,6 +12648,10 @@ img[data-loaded] {
 
   .cards-lighting__card:nth-child(4) ~ div {
     margin-top: 10px;
+  }
+
+  .bottom-training__image {
+    width: calc(100vw - 68%);
   }
 }
 
@@ -11032,6 +12760,8 @@ img[data-loaded] {
 ._webp .home-reviews{ background: url(../img/main/rewiews_bg.webp) no-repeat center center/cover; }
 
 ._webp .wrapper-price{ background-image: url(../img/price/main_bg.webp); }
+
+._webp .vacancy-page-main{ background: url(../img/vacancies/page_vacancy_bg.webp) no-repeat center top/cover; }
 
 ._webp .content-404{ background: url(../img/gallery/wrapper_bg.webp) no-repeat center top/cover; }
 
