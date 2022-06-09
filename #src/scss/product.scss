@@ -146,7 +146,7 @@
 .thumbs-small {
     .swiper-wrapper {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
         @media (max-width: $md4+px){
             gap: 5px;
