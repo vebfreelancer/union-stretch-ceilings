@@ -9,16 +9,16 @@ is made in the form of a form of sending data so that the user can place an orde
 specified calculation data from the form to the server or email. Optimized page load speed with  
 lazy image and map loading. Responsive interface for mobile devices.
 
-In blocks of cards from video on click on the play button the video from YouTube is loaded and opens  
-in  a modal window. This video does not load or slow down the loading of pages. Ability to edit video,  
-insert  or replace by adding video id to date attributes.
+In blocks of cards from video click on the play button, and the video from YouTube is loaded and opens  
+in a modal window. This video does not load or slow down the loading of pages. Ability to edit video,  
+insert or replace by adding video id to date attributes.
 
-Working with images - compression and conversion to the modern format of webp, using JavaScript is  
+Working with images - compression and conversion to the modern format of web, using JavaScript is  
 checked for support by the browser of this format, if supported, the loaded webp, for others, standard  
 formats are loaded such as jpg, png. Upload images with 2x pixel density for retina displays.
 
 In blocks of images in the form of a gallery, the ability to view slides in the lightgallery library is  
-configured. Scroll navigation pages reviews and faq applied smooth-scroll plugin.
+configured. Scroll navigation page reviews and faq applied smooth-scroll plugin.
 ```
 ### Pages
 1. [Home](https://vebfreelancer.github.io/union-stretch-ceilings/union/index.html)
